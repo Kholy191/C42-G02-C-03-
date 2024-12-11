@@ -21,40 +21,48 @@
             #endregion
 
             #region Q3 Write a program that takes 3 integers from the user then prints the max element and the min element.
-            int Max = 0;
-            int Min = 0;
-            int.TryParse(Console.ReadLine(), out var Num1);
-            int.TryParse(Console.ReadLine(), out var Num2);
-            int.TryParse(Console.ReadLine(), out var Num3);
-            if (Num1 > Num2 && Num1 > Num3)
-            {
-                Max = Num1;
-                if (Num2 > Num3)
-                    Min = Num3;
-                else
-                    Min = Num2;
-            }
-            else if (Num2 > Num1 && Num2 > Num3)
-            {
-                Max = Num2;
-                if (Num1 > Num3)
-                    Min = Num3;
-                else
-                    Min = Num1;
-            }
+            //int Max = 0;
+            //int Min = 0;
+            //int.TryParse(Console.ReadLine(), out var Num1);
+            //int.TryParse(Console.ReadLine(), out var Num2);
+            //int.TryParse(Console.ReadLine(), out var Num3);
+            //if (Num1 > Num2 && Num1 > Num3)
+            //{
+            //    Max = Num1;
+            //    if (Num2 > Num3)
+            //        Min = Num3;
+            //    else
+            //        Min = Num2;
+            //}
+            //else if (Num2 > Num1 && Num2 > Num3)
+            //{
+            //    Max = Num2;
+            //    if (Num1 > Num3)
+            //        Min = Num3;
+            //    else
+            //        Min = Num1;
+            //}
 
-            else
-            {
-                Max = Num3;
-                if (Num1 > Num2)
-                    Min = Num2;
-                else
-                    Min = Num1;
-            }
+            //else
+            //{
+            //    Max = Num3;
+            //    if (Num1 > Num2)
+            //        Min = Num2;
+            //    else
+            //        Min = Num1;
+            //}
 
-            Console.WriteLine($"Max = {Max}, Min = {Min}");
+            //Console.WriteLine($"Max = {Max}, Min = {Min}");
 
             #endregion
+
+            #region Q4 Write a program that allows the user to insert an integer number then check If a number is even or odd.
+            //int.TryParse(Console.ReadLine(), out var num);
+            //if ((num % 2) == 0)
+            //    Console.WriteLine("Even");
+            //else
+            //    Console.WriteLine("Odd");
+            //#endregion
         }
     }
 }
